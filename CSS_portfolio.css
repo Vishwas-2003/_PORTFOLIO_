@@ -432,7 +432,7 @@ body{
         border-top-left-radius: 5vh;
         border-bottom-left-radius: 5vh;
     }
-    .certification,.about,.education,.projects,.contact,.name{
+    .certification,.about,.education,.projects,.name,.contact{
         font-size: 2.2vw;
     }
     .details{
