@@ -81,7 +81,7 @@ body{
     to { width: 100% }
     }
 
-    .name,.about,.education,.certification,.projects,.contact{
+    .name,.about,.education,.certification,.projects,.contact,.resume{
         border:solid #5e1178;
         height :fit-content;
         width:90%;
@@ -89,6 +89,10 @@ body{
         margin:7vh 0% 7vh 0 ;
         border-radius: 2vh;
         transition: all 2s ease;
+    }
+    .resume_file{
+        text-decoration: none;
+        color: #810CA8 ;
     }
     .name{
         border:dotted;
@@ -160,17 +164,19 @@ body{
         font-size:1.5vw;
         display:none;
     }
+    .certification_writeul{
+        padding-bottom: 3vh;
+    }
     .cer{
-        border: solid black 0px;;
+        border: solid black 0px;
         height:2vh;
-        width:20vw;
+        width:25vw;
+        padding-bottom: 2vh;
         color: #E5B8F4;
-        background-color: #5e1178;
     }
     .cer:hover{
         border:none;
-        padding: 0;
-        transform: scaleY(25);
+        transform: scaleY(20);
         transition-duration: 2s;
     }
     .name:hover ~.about{
@@ -205,6 +211,9 @@ body{
         cursor:pointer;
     }
     .contact:hover{
+        cursor:pointer;
+    }
+    .resume:hover{
         cursor:pointer;
     }
     .c1{
@@ -423,9 +432,10 @@ body{
     }
     .cer{
         width: 35vw;
+        padding-bottom: 4vh;
     }
     .cer:hover{
-        transform: scaleY(18);
+        transform: scaleY(15);
     }
     .content{
         width:99%;
