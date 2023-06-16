@@ -572,28 +572,3 @@ body{
         display: none;
     }
 }
-@media screen and (max-height:250px) {
-    .image{
-        background-position-y:-20vh;
-    }
-}
-@media screen and (max-height:290px) {
-    .image{
-        display: none;
-    }
-}
-@media screen and (max-width:415px) {
-    .image{
-        background-position-y:-5vh;
-    }
-}
-@media screen and (max-width:250px) {
-    .image{
-        display: none;
-    }
-}
-@media screen and (max-height:400px) and (max-width:900px) {
-    .image{
-        display: none;
-    }
-}
