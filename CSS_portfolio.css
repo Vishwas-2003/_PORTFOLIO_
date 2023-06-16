@@ -90,6 +90,15 @@ body{
         border-radius: 2vh;
         transition: all 2s ease;
     }
+    .resume_file{
+        text-decoration: none;
+        color:#E5B8F4 ;
+        margin:16vh;
+        background-color: #650685;
+        border: 4px solid #650685;
+        padding: 1vh 5vh;
+        border-radius: 2vh;
+    }
     .name{
         border:dotted;
         padding:2.5vh 0vw;
@@ -160,17 +169,19 @@ body{
         font-size:1.5vw;
         display:none;
     }
+    .certification_writeul{
+        padding-bottom: 3vh;
+    }
     .cer{
-        border: solid black 0px;;
+        border: solid black 0px;
         height:2vh;
-        width:20vw;
+        width:25vw;
+        padding-bottom: 2vh;
         color: #E5B8F4;
-        background-color: #5e1178;
     }
     .cer:hover{
         border:none;
-        padding: 0;
-        transform: scaleY(25);
+        transform: scaleY(20);
         transition-duration: 2s;
     }
     .name:hover ~.about{
@@ -205,6 +216,9 @@ body{
         cursor:pointer;
     }
     .contact:hover{
+        cursor:pointer;
+    }
+    .resume:hover{
         cursor:pointer;
     }
     .c1{
@@ -423,9 +437,10 @@ body{
     }
     .cer{
         width: 35vw;
+        padding-bottom: 4vh;
     }
     .cer:hover{
-        transform: scaleY(18);
+        transform: scaleY(15);
     }
     .content{
         width:99%;
