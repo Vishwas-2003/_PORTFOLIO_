@@ -181,7 +181,7 @@ body{
     }
     .cer:hover{
         border:none;
-        transform: translate(0vh,10vh) scaleY(12);
+        transform: translate(0vh,10vh) scaleY(17);
         transition-duration: 2s;
     }
     .name:hover ~.about{
