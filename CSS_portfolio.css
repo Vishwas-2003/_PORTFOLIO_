@@ -88,12 +88,12 @@ body{
         text-align: center;
         margin:7vh 0% 7vh 0 ;
         border-radius: 2vh;
-        transition: all 2s ease;
+        transition:all 2s ease;
     }
     .resume_file{
         text-decoration: none;
         color:#E5B8F4 ;
-        margin:16vh;
+        align-self: center;
         background-color: #650685;
         border: 4px solid #650685;
         padding: 1vh 5vh;
@@ -181,7 +181,7 @@ body{
     }
     .cer:hover{
         border:none;
-        transform: scaleY(20);
+        transform: translate(0vh,10vh) scaleY(12);
         transition-duration: 2s;
     }
     .name:hover ~.about{
@@ -284,6 +284,20 @@ body{
         width:3vw;
         margin-right: 7vw;
         border-radius: 7%;
+    }
+    .write{
+        overflow-y: scroll;
+        scroll-behavior:smooth;
+    }
+    .write::-webkit-scrollbar{
+        display: none;
+    }
+    .internal{
+        overflow-y: scroll;
+        scroll-behavior:smooth;
+    }
+    .internal::-webkit-scrollbar{
+        display: none;
     }
 @media screen and (max-width:1239px) {
     .menu{
@@ -403,10 +417,10 @@ body{
         border-bottom: solid #5e1178 .5vw;
         transition: all 2s ease;
     }
-    .name_write_up,.about_write_up,.education_write_up,.certification_write_up,.projects_write_up,.contact_write_up{
+    .name_write_up,.about_write_up,.education_write_up,.projects_write_up{
         font-size:3vw;
     }
-    .education_write_up,.projects_write_up{
+    .education_write_up,.certification_write_up,.projects_write_up,.contact_write_up{
         font-size: 2.5vw;
     }
     .linkedin{
@@ -429,10 +443,10 @@ body{
         height:20vh;
         width:20vw
     }
-    .name_write_up,.about_write_up,.education_write_up,.certification_write_up,.projects_write_up,.contact_write_up{
+    .name_write_up,.about_write_up,.education_write_up,.projects_write_up{
         font-size:4vw;
     }
-    .education_write_up,.projects_write_up{
+    .education_write_up,.certification_write_up,.projects_write_up,.contact_write_up{
         font-size: 3.3vw;
     }
     .cer{
@@ -440,7 +454,7 @@ body{
         padding-bottom: 4vh;
     }
     .cer:hover{
-        transform: scaleY(15);
+        transform: scaleY(10);
     }
     .content{
         width:99%;
@@ -539,18 +553,18 @@ body{
     .write{
         width:50vw;
     }
-    .name_write_up,.about_write_up,.education_write_up,.certification_write_up,.projects_write_up,.contact_write_up{
+    .name_write_up,.about_write_up,.education_write_up,.certification_write_up,.projects_write_up{
         font-size:4.8vw;
     }
-    .education_write_up,.projects_write_up{
+    .education_write_up,.projects_write_up,.contact_write_up{
         font-size: 3.3vw;
     }
 }
 @media screen and (max-width:380px) {
-    .name_write_up,.about_write_up,.education_write_up,.certification_write_up,.projects_write_up,.contact_write_up{
+    .name_write_up,.about_write_up,.education_write_up,.certification_write_up,.projects_write_up{
         font-size:5vw;
     }
-    .education_write_up,.projects_write_up{
+    .education_write_up,.projects_write_up,.contact_write_up{
         font-size: 4vw;
     }
 }
